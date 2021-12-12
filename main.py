@@ -7,7 +7,7 @@ gray = cv2.imread('./media/print1.png', cv2.IMREAD_GRAYSCALE)
 cv2.imshow('gray', gray)
 cv2.waitKey(0)
 exit(0)
- 
+
 # read images
 img_bg = cv2.imread('./media/bg.png')
 img_print = cv2.imread('./media/print1.png')
