@@ -5,7 +5,7 @@ import time
 
 # read source print image and make a mask of it: 0/1 -> 0/255
 img_mask = cv2.imread('./media/print1.png', cv2.IMREAD_GRAYSCALE)
-img_mask_size = sys.getsizeof(img_mask)
+print(sys.getsizeof(img_mask))
 img_mask[img_mask > 0] = 255
 
 # read background and print images as is (BGR)
